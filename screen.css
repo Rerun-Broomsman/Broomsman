@@ -56,3 +56,26 @@ a {
 
 #main {
   padding: 50px; }
+div#main {
+  height: 150px;
+  width: auto; 
+  background: orange;
+}
+div#top {
+  height: 250px;
+  width: auto;
+  background: black;
+}
+p {
+left: 450px;
+  top: -300px;
+}
+
+h2 {
+  color: white;
+}
+img {
+  position: relative;
+  left: 450px;
+  top: -400px;
+}
