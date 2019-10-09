@@ -57,25 +57,46 @@ a {
 #main {
   padding: 50px; }
 div#main {
-  height: 150px;
+  height: 50px;
   width: auto; 
-  background: orange;
+  background: white;
 }
 div#top {
-  height: 250px;
-  width: auto;
+  height: 10px;
+  width:  auto;
   background: black;
 }
-div {
-left: 450px;
-  top: -300px;
+div#line {
+  height: -300;
+  width:  auto;
+  background: black;
 }
+h1 {
+  position: relative;
+  left: -300px;
+  top: -90px;
+  font-family: "Arial";
 
+}
 h2 {
-  color: white;
+  position: relative;
+  left: -100px;
+  top: -115px;
+  font-family: "Arial";
+}
+h3 {
+  position: relative;
+  left: 90px;
+  top: -140px;
+  font-family: "Arial";
 }
 img {
   position: relative;
-  left: 450px;
-  top: -400px;
+  right: 110px;
+  top: -350px;
+}
+.line-separator{
+  height:1px;
+  background:#717171;
+  border-bottom:1px solid #313030;
 }
