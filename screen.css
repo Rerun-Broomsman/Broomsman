@@ -95,8 +95,9 @@ img {
   right: 110px;
   top: -350px;
 }
-.line-separator{
-  height:1px;
-  background:#717171;
-  border-bottom:1px solid #313030;
+image {
+  position: relative;
+  top: 400;
+  width: 20px;
+  height: auto;
 }
