@@ -1,4 +1,9 @@
-html, body, div, span, applet, object, iframe,
+h1, h2, h3 {
+  font-size: 2em;
+  color: black;
+  text-align: center;
+}
+ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -66,38 +71,37 @@ div#top {
   width:  auto;
   background: black;
 }
-div#line {
-  height: -300;
+div#pic {
+  height: 10px;
   width:  auto;
   background: black;
 }
+/* div#line {
+  height: -300;
+  width:  auto;
+  background: black;
+} */
 h1 {
   position: relative;
   left: -300px;
-  top: -90px;
+  top: -675px;
   font-family: "Arial";
-
 }
-h2 {
+
+ h2 {
   position: relative;
   left: -100px;
-  top: -115px;
+  top: -695px;
   font-family: "Arial";
 }
 h3 {
   position: relative;
-  left: 90px;
-  top: -140px;
+  left: 100px;
+  top: -720px;
   font-family: "Arial";
 }
 img {
   position: relative;
   right: 110px;
   top: -350px;
-}
-image {
-  position: relative;
-  top: 400;
-  width: 20px;
-  height: auto;
 }
